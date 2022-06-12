@@ -1,98 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Home</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/countdowntime/flipclock.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
-	
-	
-	<div class="bg-img1 size1 overlay1 p-b-35 p-l-15 p-r-15" style="background-image: url('images/bg01.jpg');">
-		<div class="flex-col-c p-t-160 p-b-215 respon1">
-			<h3 class="l1-txt1 txt-center p-t-30 p-b-100">
-				Coming Soon
-			</h3>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+		<link rel="stylesheet" href="src/assets/css/style.css" />
+		<title>Ohmyfood</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<img src="src/assets/images/logo/ohmyfood.png" alt="logo" class="header--logo" />
+			</header>
+			<main>
+				<div class="loader">
+					<div class="loader__animation"></div>
+				</div>
+				<section class="presentation">
+					<div class="presentation__localisation">
+						<i class="fa-solid fa-location-dot"></i>
+						<p>Paris, Belleville</p>
+					</div>
+					<div class="presentation__text-box">
+						<h2>Réservez le menu qui vous convient</h2>
+						<p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+						<a href="#" class="btn explorer"> Explorer nos restaurants</a>
+					</div>
+				</section>
+				<section class="fonctionnement">
+					<div class="fonctionnement--wrapper">
+						<h2>Fonctionnement</h2>
+						<div class="steps">
+							<span>1</span>
+							<i class="fa-solid fa-mobile-screen-button"></i>
+							<p>Choisissez un restaurant</p>
+						</div>
+						<div class="steps">
+							<span>2</span>
+							<i class="fa-solid fa-list"></i>
+							<p>Composez votre menu</p>
+						</div>
+						<div class="steps">
+							<span>3</span>
+							<i class="fa-solid fa-store"></i>
+							<p>Dégustez au restaurant</p>
+						</div>
+					</div>
+				</section>
+				<section class="restaurants">
+					<div class="restaurants--wrapper">
+						<div class="restaurant-menus-title">
+							<h2>Restaurants</h2>
+						</div>
+						<div class="menu-list">
+							<div class="menu-card">
+								<a href="src/public/menu-palette.html">
+									<img
+										src="src/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+										alt=""
+									/>
+									<div class="menu-card__text-box">
+										<div class="text">
+											<h2>La palette du goût</h2>
+											<p>Ménilmontant</p>
+										</div>
+										<div class="heart-like">
+											<i class="fa-regular fa-heart"> </i>
+											<i class="fa-solid fa-heart"></i>
+										</div>
+									</div>
 
-			<div class="cd100"></div>
+									<span>Nouveau</span>
+								</a>
+							</div>
+							<div class="menu-card">
+								<a href="src/public/menu-note.html">
+									<img
+										src="src/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+										alt=""
+									/>
+									<div class="menu-card__text-box">
+										<div class="text">
+											<h2>La note enchantée</h2>
+											<p>Charonne</p>
+										</div>
 
+										<div class="heart-like">
+											<i class="fa-regular fa-heart"> </i>
+											<i class="fa-solid fa-heart"></i>
+										</div>
+									</div>
+									<span>Nouveau</span>
+								</a>
+							</div>
+							<div class="menu-card">
+								<a href="src/public/menu-fr.html">
+									<img
+										src="src/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+										alt=""
+									/>
+									<div class="menu-card__text-box">
+										<div class="text">
+											<h2>A la française</h2>
+											<p>Cité Rouge</p>
+										</div>
+										<div class="heart-like">
+											<i class="fa-regular fa-heart"> </i>
+											<i class="fa-solid fa-heart"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="menu-card">
+								<a href="src/public/menu-delice.html">
+									<img
+										src="src/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+										alt=""
+									/>
+									<div class="menu-card__text-box">
+										<div class="text">
+											<h2>Le délice des sens</h2>
+											<p>Folie-Méricourt</p>
+										</div>
+
+										<div class="heart-like">
+											<i class="fa-regular fa-heart"> </i>
+											<i class="fa-solid fa-heart"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__wrapper">
+					<h1>OhmyFood</h1>
+					<ul>
+						<li>
+							<a href="#"> <i class="fa-utensils fas"> </i>Proposer un restaurant</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-hands-helping fas"> </i>Devenir partenaire</a>
+						</li>
+						<li><a href="#">Mentions légales</a></li>
+						<li><a href="mailto:contact@openclass.com">Contact</a></li>
+					</ul>
+				</div>
+			</footer>
 		</div>
-
-		<!--  -->
-		<div class="flex-w flex-c-m p-b-35">
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-facebook"></i>
-			</a>
-
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-twitter"></i>
-			</a>
-
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-youtube-play"></i>
-			</a>
-		</div>
-	</div>
-
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/flipclock.min.js"></script>
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-
-		
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-</body>
+	</body>
 </html>
