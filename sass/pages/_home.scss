@@ -2,13 +2,12 @@
 	max-width: 768px;
 	margin: 0 auto;
 }
-
+// Header homepage
 .header {
 	display: flex;
 	align-items: center;
 	text-align: center;
 	padding-top: 24px;
-
 	&--logo {
 		max-width: 250px;
 		margin: 24px auto;
@@ -115,6 +114,8 @@
 	border: 10px solid #f3f3f3;
 	border-top: 10px solid #9356dc;
 	border-bottom: 10px solid #ff79da;
+	border-left: 10px solid #9356dc;
+	border-right: 10px solid #ff79da;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;

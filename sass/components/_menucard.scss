@@ -9,10 +9,15 @@
 	position: relative;
 	text-decoration: none;
 	color: black;
-	a:link {
+	a,
+	a:link,
+	a:hover,
+	a:focus,
+	a:active {
 		text-decoration: none;
-		color: black;
+		color: inherit;
 	}
+
 	span {
 		background: #99e2d0;
 		padding: 10px 24px;
