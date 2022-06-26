@@ -118,9 +118,13 @@ body {
   position: relative;
   text-decoration: none;
   color: black; }
-  .menu-card a:link {
+  .menu-card a,
+  .menu-card a:link,
+  .menu-card a:hover,
+  .menu-card a:focus,
+  .menu-card a:active {
     text-decoration: none;
-    color: black; }
+    color: inherit; }
   .menu-card span {
     background: #99e2d0;
     padding: 10px 24px;
@@ -471,6 +475,8 @@ article .card:nth-child(4n) {
   border: 10px solid #f3f3f3;
   border-top: 10px solid #9356dc;
   border-bottom: 10px solid #ff79da;
+  border-left: 10px solid #9356dc;
+  border-right: 10px solid #ff79da;
   border-radius: 50%;
   width: 100px;
   height: 100px;
